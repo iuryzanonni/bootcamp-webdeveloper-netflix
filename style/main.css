@@ -1,0 +1,104 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--black);
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--red);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #AAA;
+}
+
+/*Main movie*/
+
+.main-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.50)100%), url('/img/banner_peaky_blinders.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main-movie .title{
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.class-button{
+    background-color: rgba(179, 179, 179, 0.85);
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.play-button{
+    background-color: white;
+    color: black;
+}
+
+.class-button:hover{
+    background-color: rgba(179, 179, 179, 0.5);
+}
+
+.play-button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.class-button i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.main-movie .container{
+    width: 70%;
+}
