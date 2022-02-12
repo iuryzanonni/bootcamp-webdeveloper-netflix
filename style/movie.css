@@ -2,7 +2,7 @@
 
 .main-movie{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.50)100%), url('./img/banner_peaky_blinders.jpg');
+    background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.50)100%), url('../img/banner_peaky_blinders.jpg');
     height: 600px;
     background-size: cover;
 
